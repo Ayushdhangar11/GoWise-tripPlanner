@@ -1,0 +1,23 @@
+creating default route takes -  
+a. install  react-router-dom to use routing over the react app.
+b. use createBrowserRoute used to create default route it takes object consist of path and element that design for that particular route
+c. once we create that route we use RouteProvider inside the Strictmode which get access via index.html and using that we call the the route we created earlier. 
+
+
+use nominatim api - instead of google api which is free tier but not have lots of location bt u can also use mapbox
+
+we use firebase to create safe doc to save our trip details created after entering info.
+
+also we use googlesignIn for stroing info related to one who log to the system and get store in local storage
+on browser console>application>localstorage where we get our user details by which email he logged in
+
+on sign in we get token and we pass that token to function to get the user info and store it to localstorage.
+
+then we have savetrip to save trip detaisl to firebase where we create collection on unique id(this id helps to create a dynamic page where we can show the trips info).
+we calling this function after gemini give us result in json format.
+
+for that we create pfolder like[tripid] for that .
+
+after that we have created a page to show our trip details
+for showing image of places we will use google place api - where we give name of image and it will give us reference id of that
+from which we will get image and display.
