@@ -1,16 +1,62 @@
-<<<<<<< HEAD
-# GoWise-tripPlanner
-=======
-# React + Vite
+# 🧠 AI Trip Planner 🌍✈️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent travel planning assistant powered by **Google Gemini** and built with the **MERN Stack**. Plan your trips effortlessly with AI-powered destination suggestions, hotel options, and custom itineraries — all through a beautiful, responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+- 🌐 **AI-Powered Travel Planning** using Google Gemini API
+- 🏨 Smart **Hotel & Location Recommendations**
+- 📅 Dynamic **Itinerary Builder**
+- 🧭 **Interactive Dashboard** with real-time suggestions
+- 💬 Chat-based assistant interface
+- 📍 Google Places Autocomplete for seamless location input
+- 📦 **MERN Stack** (MongoDB, Express, React, Node.js)
+- 🔐 JWT-based User Authentication
+- 📈 Admin dashboard (optional for trip analytics)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 0b6af35 (Initial upload of local folder)
+---
+
+## 🧰 Tech Stack
+
+| Tech             | Description                     |
+|------------------|----------------------------------|
+| React            | Frontend UI                     |
+| Node.js + Express| Backend API                     |
+| MongoDB          | NoSQL database for trips/users  |
+| Google Gemini    | AI engine for travel Q&A        |
+| Firebase Auth    | (Optional) Google login         |
+| Tailwind/ShadCN  | UI styling                      |
+| OpenAI / Gemini  | Natural Language understanding  |
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Node.js v18+
+- MongoDB installed locally or on Atlas
+- Google Gemini API key
+- (Optional) Firebase Project
+
+---
+
+### ⚙️ Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/YourUsername/ai-trip-planner.git
+cd ai-trip-planner
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+# Then edit `.env` to include your API keys, Mongo URI, etc.
+
+# Run the server
+npm run dev
+
